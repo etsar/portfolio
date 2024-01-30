@@ -20,7 +20,7 @@
 
 				<!-- Nav -->
 					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#home" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#aboutme" class="icon solid fa-user"><span>About Me</span></a>
 						<a href="#projects" class="icon solid fa-folder-open"><span>Projects</span></a>
 						<a href="#resume" class="icon solid fa-file-alt"><span>Resume</span></a>
@@ -174,8 +174,7 @@
 												<span class="badge badge-pill text-primary border border-primary ml-1">Tableau</span>
 												<!-- Add more skills as needed -->
 											</p>
-
-										<button onclick="showProjectDetails('project2Details')">Learn More</button>
+											<a href="https://github.com/etsar/Streaming-Platforms-Analysis" class="button github-link" target="_blank">View on GitHub</a>
 										</div>
 										<div class="project-image">
 											<img src="images/Streaming Platforms Analysis.png" alt="Image representing the logos of major streaming platforms: Amazon Prime Video, Disney+, Hulu, and Netflix">
@@ -207,7 +206,8 @@
 										</div>
 										<div class="project-image">
 											<img src="images/US National Parks Analysis.png" alt="Image representing Tableau Story exploring US National Parks">
-											<br><br><br><br>					
+											<p class="image-caption">Explore <a href="https://public.tableau.com/views/ExploringU_S_NationalParksVisitorandAccommodationTrends/ExploringU_S_NationalParksVisitorandAccommodationTrends?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau Story</a></p>
+											<br>					
 										</div>
 									</div>
 									<hr> <!-- Separator Line -->
@@ -345,52 +345,6 @@
 
 									<!-- More Projects -->
 								</div>
-
-								<!-- Detailed Project 2 Content -->
-								<div id="project2Details" class="project-details" style="display: none;">
-									<h3>Detailed Information: Streaming Data Insights</h3>
-									<p>
-										<strong>Objective:</strong> Uncover trends in streaming content across major platforms to analyze viewer preferences and industry trends from 1912 to 2023.
-									</p>
-									<p>
-										<strong>Volume:</strong> Analyzed 22,619 titles and 326,177 credits across platforms.
-									</p>
-									<p>
-										<strong>Tools & Technologies:</strong>
-										<ul>
-											<li>Python (Jupyter Notebook) for data scraping and preprocessing.</li>
-											<li>SQL (Snowflake) for complex data queries and analysis.</li>
-											<li>Tableau for interactive visualizations.</li>
-										</ul>
-									</p>
-									<p>
-										<strong>Insights:</strong>
-										<ul>
-											<li>Revealed Amazon's extensive content library versus Disney's targeted niche approach.</li>
-											<li>Highlighted Netflix's balanced approach in content diversity and high ratings.</li>
-											<!-- Add more insights as needed -->
-										</ul>
-									</p>
-									<p>
-										<strong>Decision-Making Impact:</strong> Assisted streaming platforms in tailoring their content offerings for maximum engagement.
-									</p>
-									<p>
-										<strong>Team Collaboration:</strong> Worked within a team of 5, dividing tasks for a comprehensive approach.
-									</p>
-									<p>
-										<strong>SQL Code Example:</strong>
-										<pre><code>
-											SELECT title, COUNT(*)
-											FROM streaming_data
-											GROUP BY title;
-										</code></pre>
-									</p>
-									<p>
-										<strong>Tableau Dashboard:</strong> <a href="link_to_your_tableau_dashboard">View Interactive Dashboard</a>
-									</p>
-									<button onclick="hideProjectDetails('project2Details')">Back to Projects</button>
-								</div>
-								
 							</article>
 
 						<!-- Resume -->
